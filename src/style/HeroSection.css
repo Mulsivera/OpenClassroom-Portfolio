@@ -1,0 +1,60 @@
+.HeroGreeting {
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.HeroIntroduction {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.HeroIntroduction span {
+    color: var(--secondary-text-color);
+    font-size: 45px;
+}
+
+.HeroDescription {
+    font-size: 25px;
+    max-width: 800px;
+    margin-bottom: 30px;
+}
+
+.HeroButtons {
+    display: flex;
+    gap: 30px;
+}
+.HeroContactBtn {
+    border: none;
+    background-color: var(--secondary-text-color);
+    border: 1px solid var(--secondary-text-color);
+    padding: 17px 33px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.HeroContactBtn:hover {
+    background-color: white;
+    color: var(--secondary-text-color);
+}
+
+.HeroCvBtn {
+    border: 1px solid var(--secondary-text-color);
+    background-color: white;
+    padding: 17px 33px;
+    border-radius: 50px;
+    color: var(--secondary-text-color);
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.HeroCvBtn:hover {
+    background-color: var(--secondary-text-color);
+    color: white;
+}
