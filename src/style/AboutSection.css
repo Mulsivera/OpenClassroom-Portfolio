@@ -1,0 +1,46 @@
+.AboutSection {
+    margin: 75px 0;
+    padding: 40px 5vw;
+    background-color: var(--secondary-text-color);
+}
+
+.AboutTitle {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.AboutDescription {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.AboutDescription span {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+}
+
+.AboutBtn {
+    margin-top: 25px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--secondary-text-color);
+    padding: 17px 33px;
+    border-radius: 50px;
+    color: var(--secondary-text-color);
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.AboutBtn:hover {
+    text-decoration: underline;
+}
+

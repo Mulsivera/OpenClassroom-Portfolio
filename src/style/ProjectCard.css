@@ -1,0 +1,31 @@
+.ProjectCard {
+    width: 31%;
+    margin-bottom: 35px;
+}
+
+.ProjectCardImg {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.ProjectCardTitle {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.ProjectCardDescription {
+    margin-top: 10px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+.ProjectCardCategory {
+    display: inline-block;
+    background-color: var(--secondary-text-color);
+    padding: 5px 15px;
+    color: white;
+    font-weight: 500;
+    border-radius: 25px;
+    margin-top: 15px;
+}

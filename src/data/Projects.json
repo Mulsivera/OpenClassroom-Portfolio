@@ -1,0 +1,56 @@
+[
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+        "titre": "Page d'accueil d'une agence de voyage",
+        "description": "Création de la page d'accueil d'une agence de voyage en utilisant HTML & CSS à tout ça partir d'une maquette figma gérant également le responsif.",
+        "category": "Formateurs"
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+        "titre": "Page Web dynamique avec Javascript",
+        "description": "Dynamisation d'un site Web déja existant, création de filtres, réalisation d'un formulaire de connexion et modale de création et de suppresion d'objets.",
+        "category": "Formateurs"
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+        "titre": "Débuggage et optimisation d'un site",
+        "description": "A partir d'une page Web déja existante, corection de bug javascript et optimisation de la page pour un meilleur référencement et une meilleure fluditée.",
+        "category": "Formateurs"
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+        "titre": "Création d'une application de location avec React",
+        "description": "Création d'un application de location immobiliaire avec React comprenant plusieurs pages et plusieurs composants complexes différents.",
+        "category": "Formateurs"
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+        "titre": "Back-end d'un site de notation de livres",
+        "description": "Développement du back-end d'un site de notation de livres permettant la gestion des utilisateur et des objets avec création suppression et modification.",
+        "category": "Formateurs"
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+        "titre": "Planification du développement d'un projet",
+        "description": "Gestion de la planification d'un projet de développement, avec gestion des tâches, choix technique, définitions des objectifs et méthodologie Agile",
+        "category": "Formateurs"
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+        "titre": "Création d'une page de recette responsive",
+        "description": "Projet proposé par le site Frontend Mentor qui propose des challenges qui ici était de reproduire une page de recette à partir d'une maquette responsif.",
+        "category": "Personnels"
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+        "titre": "Création d'un composant de lien vers les réseaux",
+        "description": "Projet proposé par le site Frontend Mentor qui propose des challenges qui ici était de reproduire un composant de lien vers les réseaux sociaux.",
+        "category": "Personnels"
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+        "titre": "Création d'un composant de question avec accordéons",
+        "description": "Projet proposé par le site Frontend Mentor qui propose des challenges qui ici était de reproduire un composant de question réponse avec accordéons.",
+        "category": "Personnels"
+    }
+]
