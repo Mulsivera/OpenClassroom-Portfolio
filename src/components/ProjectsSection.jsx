@@ -12,10 +12,10 @@ function ProjectsSection () {
     }
 
     return (
-        <div className="ProjectsSection">
+        <div id="ProjectsSection" className="ProjectsSection">
             <p className="ProjectsCategory">PROJETS</p>
             <p className="ProjectsTitle">Projets auxquels j'ai contribué</p>
-            <p className="ProjectsDescription">Pour plus d'informations, cliquez sur le projet qui vous intéresse.</p>
+            <p className="ProjectsDescription">Cliquez sur un projet pour le découvrir. Pas de lien ? Le projet n'est pas encore accessible.</p>
             <div className="ProjectsButtons">
                 <button className={filterCategory === "Tous" ? "BtnActive" : ""} onClick={CategoryFilter}>Tous</button>
                 <button className={filterCategory === "Professionnels" ? "BtnActive" : ""} onClick={CategoryFilter}>Professionnels</button>
@@ -26,7 +26,7 @@ function ProjectsSection () {
                 {Projects.map((project, index) => {
                     if (filterCategory === "Tous" || filterCategory === project.category) {
                         return (
-                            <ProjectCard key={index} image={project.image} title={project.titre} description={project.description} category={project.category} />
+                            <ProjectCard key={index} image={project.image} title={project.titre} description={project.description} category={project.category} link={project.link} />
                         );
                     }
                     return null;

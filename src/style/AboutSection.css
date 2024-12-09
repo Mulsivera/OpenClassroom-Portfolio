@@ -6,8 +6,7 @@
 
 .AboutTitle {
     color: var(--primary-color);
-    font-weight: 700;
-    font-size: 35px;
+    font: 700 35px/1 var(--primary-font);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -15,32 +14,11 @@
 
 .AboutDescription {
     color: var(--primary-color);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 28px;
+    font: 500 18px/28px var(--primary-font);
+    text-align: justify;
 }
 
-.AboutDescription span {
-    text-decoration: underline;
+.AboutDescription strong {
+    text-decoration: underline 2px;
     text-underline-offset: 2px;
-    text-decoration-thickness: 2px;
 }
-
-.AboutBtn {
-    margin-top: 25px;
-    background-color: var(--primary-color);
-    border: 1px solid var(--secondary-text-color);
-    padding: 17px 33px;
-    border-radius: 50px;
-    color: var(--secondary-text-color);
-    font-size: 18px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    gap: 17px;
-}
-
-.AboutBtn:hover {
-    text-decoration: underline;
-}
-

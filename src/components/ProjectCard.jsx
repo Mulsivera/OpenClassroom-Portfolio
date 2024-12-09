@@ -1,13 +1,13 @@
 import "../style/ProjectCard.css"
 
-function ProjectCard ({image, title, description, category}) {
+function ProjectCard ({image, title, description, category, link}) {
     return (
-        <div className="ProjectCard">
-            <img src={image} className="ProjectCardImg"/>
+        <a href={link} target="_blank" className="ProjectCard">
+            <img src={image} className="ProjectCardImg" alt={title}/>
             <p className="ProjectCardTitle">{title}</p>
             <p className="ProjectCardDescription">{description}</p>
             <p className="ProjectCardCategory">{category}</p>
-        </div>
+        </a>
     )
 }
 

@@ -1,0 +1,70 @@
+.HeaderDiv {
+    background-color: var(--secondary-text-color);
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--primary-color);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.HeaderName, .HeaderNavLink {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.HeaderNav {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.HeaderNavLink:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+}
+
+.HeaderMenuIcon {
+    font-size: 24px;
+    display: none;
+}
+
+.HeaderNavMobileShow, .HeaderNavMobileHide {
+    position: absolute;
+    right: 0;
+    top: 71px;
+    background-color: var(--secondary-text-color);
+}
+
+.HeaderNavMobileShow {
+    display: flex;
+    flex-direction: column;
+}
+
+.HeaderNavMobileHide {
+    display: none;
+}
+
+.HeaderNavMobileShow .HeaderNavLink, .HeaderNavMobileHide .HeaderNavLink {
+    padding: 15px;
+    border-top: 1px solid var(--primary-color);
+}
+
+@media (max-width: 1440px) {
+    .HeaderNav .HeaderNavLink {
+        display: none;
+    }
+    .HeaderMenuIcon {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .HeaderDiv {
+        padding: 25px 50px;
+    }
+}
