@@ -1,0 +1,73 @@
+.ProjectCard {
+    width: 31%;
+    margin-bottom: 35px;
+    border: 1px solid lightgray;
+    padding: 30px;
+    border-radius: 25px;
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.ProjectCard:hover {
+    background-color: #F5F5F5;
+}
+
+.ProjectCardImg {
+    width: 100%;
+    aspect-ratio: 1.2;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.ProjectCardTitle {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 600;
+    height: calc(1.5rem * 2);
+}
+
+.ProjectCardDescription {
+    margin-top: 20px;
+    line-height: 22px;
+    height: calc(22px * 4);
+}
+
+.ProjectCardCategory {
+    display: inline-block;
+    background-color: var(--secondary-text-color);
+    padding: 5px 15px;
+    color: white;
+    font-weight: 500;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.ProjectCardSkills {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+    .ProjectCard {
+        width: 48%;
+    }
+    .ProjectCardDescription {
+        height: calc(22px * 5);
+    }
+}
+
+@media (max-width: 768px) {
+    .ProjectCardDescription {
+        height: calc(22px * 6);
+    }
+}
+
+@media (max-width: 480px) {
+    .ProjectCard {
+        width: 100%;
+    }
+    .ProjectCardDescription {
+        height: calc(22px * 5);
+    }
+}

@@ -1,0 +1,24 @@
+.AboutSection {
+    margin: 75px 0;
+    padding: 40px 5vw;
+    background-color: var(--secondary-text-color);
+}
+
+.AboutTitle {
+    color: var(--primary-color);
+    font: 700 35px/1 var(--primary-font);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.AboutDescription {
+    color: var(--primary-color);
+    font: 500 18px/28px var(--primary-font);
+    text-align: justify;
+}
+
+.AboutDescription strong {
+    text-decoration: underline 2px;
+    text-underline-offset: 2px;
+}

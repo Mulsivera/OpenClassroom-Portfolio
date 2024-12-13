@@ -1,0 +1,29 @@
+:root {
+
+    --primary-font: "Work Sans", serif;
+
+    --primary-text-color:   #222222;
+    --secondary-text-color: #0175E4;
+
+    --primary-color:        #FFFFFF;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+}
+
+body {
+    margin: 0 auto;
+    padding-top: 135px;
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+}
+
+.BodyContent {
+    max-width: 1440px;
+    margin: 0 auto ;
+}

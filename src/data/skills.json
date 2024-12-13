@@ -1,0 +1,45 @@
+[
+    {
+        "title": "Développement d'applications Web",
+        "description": "Création d'applications interactives et accessibles via un navigateur, combinant design, fonctionnalités, et performance pour répondre aux besoins des utilisateurs.",
+        "skills": 
+        [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "React",
+            "Bootsrap",
+            "Node",
+            "Express",
+            "Mongo"
+        ]
+    },
+    {
+        "title": "Création de solutions Low Code / No Code",
+        "description": "Développement de solutions efficaces et rapides en utilisant des outils low code pour simplifier les processus et réduire les délais de livraison.",
+        "skills": 
+        [
+            "Wordpress",
+            "Webflow",
+            "Figma",
+            "Bubble.io",
+            "Tali",
+            "Notion",
+            "PrestaShop",
+            "Flutterflow"
+        ]
+    },
+    {
+        "title": "Gestion et optimisation de projets",
+        "description": "Planification stratégique et amélioration des processus pour assurer le succès des projets tout en maximisant le temps gagné et la visibilitée",
+        "skills": 
+        [
+            "Zapier",
+            "TimeTonic",
+            "Agile",
+            "Scrum",
+            "SEO",
+            "SEA"
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "dates":"Février 2024 - Février 2025",
+        "name":"Alternant Analyste Programmeur",
+        "description":"Développement de sites vitrines et E-commerce sur CMS et aide à la préparation de formation",
+        "place":"Utopios, Tourcoing"
+    },
+    {
+        "dates":"Septembre 2021 - Août 2022",
+        "name":"Alternant Technicien recherche et développement",
+        "description":"Développement de projets d'automatisation et réalisation de documents en bureau d'étude",
+        "place":"Galloo Plastis SA, Halluin"
+    },
+    {
+        "dates":"Juillet 2021 - Août 2021",
+        "name":"Animateur",
+        "description":"Animateur lors de l'évènement Halluin Plage 2021, gestion de stand, surveillance de groupes d'enfants",
+        "place":"Halluin Plage, Halluin"
+    },
+    {
+        "dates":"Novembre 2020",
+        "name":"Stage Technicien maintenance",
+        "description":"Découverte du métier, assistance à la maintenance industrielle, gestion de stocks,  gestion de documentations",
+        "place":"Provost Distribution, Halluin"
+    }
+]

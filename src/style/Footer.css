@@ -1,0 +1,40 @@
+.FooterDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-text-color);
+    padding: 25px 100px;
+    color: var(--primary-color);
+}
+
+.FooterContacts {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.FooterName {
+    font-weight: 500;
+}
+
+.FooterIcon {
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+.FooterMail {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.FooterMail:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .FooterDiv {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

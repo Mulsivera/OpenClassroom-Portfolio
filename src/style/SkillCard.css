@@ -1,0 +1,52 @@
+.SkillCard {
+    width: 32%;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+.SkillCard:hover, .SkillCard:hover .SkillCardTitle, .SkillCard:hover .SkillCardDescription {
+    color: var(--primary-color);
+}
+
+.SkillCard:hover {
+    background-color: var(--secondary-text-color);
+    border: 1px solid var(--secondary-text-color);
+}
+
+.SkillCardTitle {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: var(--primary-text-color);
+}
+
+.SkillCardDescription {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 10px;
+    color: var(--primary-text-color);
+    margin-bottom: 15px;
+}
+
+.SkillCardList {
+    margin-left: 15px;
+}
+
+.SkillCardList li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 1024px) {
+    .SkillCard {
+        width: 100%;
+    }
+    .SkillCard:not(:last-child) {
+        margin-bottom: 35px;
+    }
+}

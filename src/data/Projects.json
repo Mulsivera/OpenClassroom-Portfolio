@@ -1,0 +1,114 @@
+[
+    {
+        "image": "/images/booki.webp",
+        "title": "Page d'accueil d'une agence de voyage",
+        "description": "Création de la page d'accueil d'une agence de voyage en utilisant HTML & CSS à tout ça partir d'une maquette figma gérant également le responsif.",
+        "category": "Formateurs",
+        "link": "https://github.com/Mulsivera/OpenClassroom-Booki",
+        "skills": "HTML et CSS"
+    },
+    {
+        "image": "/images/sophie-bluel.webp",
+        "title": "Page Web dynamique avec Javascript",
+        "description": "Dynamisation d'un site Web déja existant, création de filtres, réalisation d'un formulaire de connexion et modale de création et de suppresion d'objets.",
+        "category": "Formateurs",
+        "link": "https://github.com/Mulsivera/OpenClassroom-SophieBluel",
+        "skills": "HTML, CSS et Javascript"
+    },
+    {
+        "image": "/images/nina-carducci.webp",
+        "title": "Débuggage et optimisation d'un site",
+        "description": "A partir d'une page Web déja existante, corection de bug javascript et optimisation de la page pour un meilleur référencement et une meilleure fluditée.",
+        "category": "Formateurs",
+        "link": "https://github.com/Mulsivera/OpenClassroom-NinaCarducci",
+        "skills":"HTML, CSS et Javascript"
+    },
+    {
+        "image": "/images/kasa.webp",
+        "title": "Application de location avec React",
+        "description": "Création d'un application de location immobiliaire avec React comprenant plusieurs pages et plusieurs composants complexes différents.",
+        "category": "Formateurs",
+        "link": "https://github.com/Mulsivera/OpenClassroom-Kasa",
+        "skills":"HTML, CSS, Javascript et React"
+    },
+    {
+        "image": "/images/mon-vieux-grimoire.webp",
+        "title": "Back-end d'un site de notation de livres",
+        "description": "Développement du back-end d'un site de notation de livres permettant la gestion des utilisateur et des objets avec création suppression et modification.",
+        "category": "Formateurs",
+        "link": "https://github.com/Mulsivera/OpenClassroom-Mon-Vieux-Grimoire",
+        "skills": "Node.js, Express.js et Mongo"
+    },
+    {
+        "image": "/images/qwenta.webp",
+        "title": "Planification de développement projet",
+        "description": "Gestion de la planification d'un projet de développement, avec gestion des tâches, choix technique, définitions des objectifs et méthodologie Agile",
+        "category": "Formateurs",
+        "link": "#",
+        "skills": "Gestion de projet"
+    },
+    {
+        "image": "/images/recipe-page.webp",
+        "title": "Page web de recette responsive",
+        "description": "Projet proposé par le site Frontend Mentor qui propose des challenges qui ici était de reproduire une page de recette.",
+        "category": "Personnels",
+        "link": "https://github.com/Mulsivera/FrontEndMentor-RecipePage",
+        "skills":"HTML et CSS"
+    },
+    {
+        "image": "/images/accordion.webp",
+        "title": "Composant intéractif de question",
+        "description": "Projet proposé par le site Frontend Mentor qui propose des challenges qui ici était de reproduire un composant de question réponse avec accordéons.",
+        "category": "Personnels",
+        "link": "https://github.com/Mulsivera/FrontEndMentor-FaqAccordion",
+        "skills":"HTML et CSS"
+    },
+    {
+        "image": "/images/abc-mouvaux.webp",
+        "title": "Site vitrine pour un club de Basket",
+        "description": "Réalisation d'un site vitrine pour un club / association de Basketball local en utilisant le CMS wordpress et le thème builder Divi",
+        "category": "Professionnels",
+        "link": "#",
+        "skills": "Wordpress, HTML et CSS"
+    },
+    {
+        "image": "/images/district-terrien.webp",
+        "title": "Site utilitaire pour un club de Basket",
+        "description": "Réalisation d'un site utilitaire pour un club / association de Basketball local en utilisant le CMS wordpress",
+        "category": "Professionnels",
+        "link": "#",
+        "skills":"Wordpress, HTML, CSS et Javascript"
+    },
+    {
+        "image": "/images/impactetstrategie.webp",
+        "title": "Site E-commerce de produits dérivés",
+        "description": "Réalisation d'un site E-commerce de vente de produits dérivés BtoB avec Prestashop et son thème de base, traitement de données pour transfert",
+        "category": "Professionnels",
+        "link": "#",
+        "skills": "Prestashop et CSS"
+    },
+    {
+        "image": "/images/peeling.webp",
+        "title": "Site E-commerce de produits esthétiques",
+        "description": "Réalisation d'un site E-commerce de vente de produits esthétiques avec Prestashop et un constructeur de pages",
+        "category": "Professionnels",
+        "link": "https://peelings.net/",
+        "skills": "Prestashop et CSS"
+    },
+    {
+        "image": "/images/welcoming-home.webp",
+        "title": "Site E-commerce de produits d'intérieur",
+        "description": "Réalisation d'un site E-commerce de vente de produits d'intérieur avec Prestashop et un constructeur de pages",
+        "category": "Professionnels",
+        "link": "#",
+        "skills":"Prestashop et CSS"
+    },
+    {
+        "image": "/images/bootstrap.webp",
+        "title": "Landing Page / Portfolio avec Bootstrap",
+        "description": "Réalisation d'une landing page / Portfolio fait en bootstrap dans le cadre d'un cours d'aprentissage du framework ",
+        "category": "Personnels",
+        "link": "#",
+        "skills":"HTML, CSS et Bootstrap"
+    }
+]
