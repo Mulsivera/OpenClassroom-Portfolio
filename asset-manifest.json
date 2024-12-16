@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e5a7b24.css",
-    "main.js": "/static/js/main.1b4be2e4.js",
-    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
-    "index.html": "/index.html",
-    "main.8e5a7b24.css.map": "/static/css/main.8e5a7b24.css.map",
-    "main.1b4be2e4.js.map": "/static/js/main.1b4be2e4.js.map",
-    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/OpenClassroom-Portfolio/static/css/main.8e5a7b24.css",
+    "main.js": "/OpenClassroom-Portfolio/static/js/main.435cad5e.js",
+    "static/js/453.1407b060.chunk.js": "/OpenClassroom-Portfolio/static/js/453.1407b060.chunk.js",
+    "index.html": "/OpenClassroom-Portfolio/index.html",
+    "main.8e5a7b24.css.map": "/OpenClassroom-Portfolio/static/css/main.8e5a7b24.css.map",
+    "main.435cad5e.js.map": "/OpenClassroom-Portfolio/static/js/main.435cad5e.js.map",
+    "453.1407b060.chunk.js.map": "/OpenClassroom-Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8e5a7b24.css",
-    "static/js/main.1b4be2e4.js"
+    "static/js/main.435cad5e.js"
   ]
 }
