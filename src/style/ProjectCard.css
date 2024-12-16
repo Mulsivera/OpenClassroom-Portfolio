@@ -8,10 +8,6 @@
     text-decoration: none;
 }
 
-.ProjectCard:hover {
-    background-color: #F5F5F5;
-}
-
 .ProjectCardImg {
     width: 100%;
     aspect-ratio: 1.2;
@@ -37,7 +33,7 @@
     display: inline-block;
     background-color: var(--secondary-text-color);
     padding: 5px 15px;
-    color: white;
+    color: var(--primary-color);
     font-weight: 500;
     border-radius: 25px;
     margin-top: 15px;

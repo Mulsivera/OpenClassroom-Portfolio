@@ -1,11 +1,11 @@
 .AboutSection {
     margin: 75px 0;
     padding: 40px 5vw;
-    background-color: var(--secondary-text-color);
+    text-align: center;
 }
 
 .AboutTitle {
-    color: var(--primary-color);
+    color: var(--primary-text-color);
     font: 700 35px/1 var(--primary-font);
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -13,9 +13,8 @@
 }
 
 .AboutDescription {
-    color: var(--primary-color);
+    color: var(--primary-text-color);
     font: 500 18px/28px var(--primary-font);
-    text-align: justify;
 }
 
 .AboutDescription strong {

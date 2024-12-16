@@ -2,9 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--secondary-text-color);
     padding: 25px 100px;
-    color: var(--primary-color);
+    color: var(--primary-text-color);
+    background-color: #0C1425;
 }
 
 .FooterContacts {
@@ -19,11 +19,11 @@
 
 .FooterIcon {
     font-size: 24px;
-    color: var(--primary-color);
+    color: var(--primary-text-color);
 }
 
 .FooterMail {
-    color: var(--primary-color);
+    color: var(--primary-text-color);
     text-decoration: none;
     font-weight: 500;
 }

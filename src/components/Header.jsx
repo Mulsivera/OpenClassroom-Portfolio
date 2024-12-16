@@ -30,9 +30,8 @@ function Header() {
 
     return (
         <div className="HeaderDiv">
-            <p className="HeaderName">Adrien Da Silva Ferreira</p>
+            <p onClick={(e) => handleLinkClick(e, "#AccueilSection")} className="HeaderName">Adrien Da Silva Ferreira</p>
             <nav className="HeaderNav">
-                <p className="HeaderNavLink" onClick={(e) => handleLinkClick(e, "#AccueilSection")}>Accueil</p>
                 <p className="HeaderNavLink" onClick={(e) => handleLinkClick(e, "#AboutSection")}>A propos</p>
                 <p className="HeaderNavLink" onClick={(e) => handleLinkClick(e, "#SkillsSection")}>Compétences</p>
                 <p className="HeaderNavLink" onClick={(e) => handleLinkClick(e, "#ProjectsSection")}>Projets</p>
@@ -41,7 +40,6 @@ function Header() {
                 <FaBars className="HeaderMenuIcon" onClick={SwitchVisibility} />
             </nav>
             <nav className={NavMobileVisibility === "Hide" ? "HeaderNavMobileShow" : "HeaderNavMobileHide"}>
-                <p className="HeaderNavLink" onClick={(e) => handleLinkClick(e, "#AccueilSection")}>Accueil</p>
                 <p className="HeaderNavLink" onClick={(e) => handleLinkClick(e, "#AboutSection")}>A propos</p>
                 <p className="HeaderNavLink" onClick={(e) => handleLinkClick(e, "#SkillsSection")}>Compétences</p>
                 <p className="HeaderNavLink" onClick={(e) => handleLinkClick(e, "#ProjectsSection")}>Projets</p>

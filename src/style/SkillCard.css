@@ -1,28 +1,20 @@
 .SkillCard {
-    width: 32%;
+    width: 48%;
     border: 1px solid #DDDDDD;
     border-radius: 5px;
-    padding: 30px;
+    padding: 40px 50px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     text-decoration: none;
-}
-
-.SkillCard:hover, .SkillCard:hover .SkillCardTitle, .SkillCard:hover .SkillCardDescription {
-    color: var(--primary-color);
-}
-
-.SkillCard:hover {
-    background-color: var(--secondary-text-color);
-    border: 1px solid var(--secondary-text-color);
+    text-align: center;
 }
 
 .SkillCardTitle {
     font-weight: 700;
     font-size: 24px;
     margin-bottom: 5px;
-    color: var(--primary-text-color);
+    color: var(--secondary-text-color);
 }
 
 .SkillCardDescription {
@@ -34,15 +26,36 @@
 }
 
 .SkillCardList {
-    margin-left: 15px;
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    row-gap: 25px;
+    flex-wrap: wrap;
 }
 
-.SkillCardList li {
-    font-size: 18px;
-    margin-bottom: 5px;
+.SkillCardIcon {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 7px;
 }
 
-@media (max-width: 1024px) {
+.SkillCardIcon:hover {
+    color: var(--secondary-text-color);
+}
+
+.SkillCardIcon svg {
+    font-size: 40px;
+}
+
+.SkillCardIcon::before {
+    font-size: 24px;
+    color: white;
+}
+
+@media (max-width: 1023px) {
     .SkillCard {
         width: 100%;
     }

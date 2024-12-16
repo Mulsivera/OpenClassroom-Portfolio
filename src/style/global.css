@@ -2,10 +2,10 @@
 
     --primary-font: "Work Sans", serif;
 
-    --primary-text-color:   #222222;
-    --secondary-text-color: #0175E4;
+    --primary-text-color:   white;
+    --secondary-text-color: #A7C7E7;
 
-    --primary-color:        #FFFFFF;
+    --primary-color:        #0F172A;
 
 }
 
@@ -18,7 +18,7 @@
 
 body {
     margin: 0 auto;
-    padding-top: 135px;
+    padding-top: 70px;
     background-color: var(--primary-color);
     color: var(--primary-text-color);
 }

@@ -10,7 +10,7 @@
     text-align: center;
     text-transform: uppercase;
     color: var(--secondary-text-color);
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -49,9 +49,4 @@
     font-weight: 600;
     background-color: var(--secondary-text-color);
     text-decoration: none;
-}
-
-.SkillsLink:hover {
-    background-color: var(--primary-color);
-    color: var(--secondary-text-color);
 }

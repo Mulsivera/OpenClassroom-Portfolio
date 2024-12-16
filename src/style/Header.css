@@ -1,9 +1,8 @@
 .HeaderDiv {
-    background-color: var(--secondary-text-color);
     padding: 25px 100px;
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
-    color: var(--primary-color);
     position: fixed;
     width: 100%;
     top: 0;
@@ -12,8 +11,9 @@
 .HeaderName, .HeaderNavLink {
     font-size: 18px;
     font-weight: 500;
-    color: var(--primary-color);
+    color: var(--primary-text-color);
     text-decoration: none;
+    cursor: pointer;
 }
 
 .HeaderNav {
@@ -37,7 +37,7 @@
     position: absolute;
     right: 0;
     top: 71px;
-    background-color: var(--secondary-text-color);
+    background-color: var(--primary-color);
 }
 
 .HeaderNavMobileShow {

@@ -1,45 +1,34 @@
 [
     {
         "title": "Développement d'applications Web",
-        "description": "Création d'applications interactives et accessibles via un navigateur, combinant design, fonctionnalités, et performance pour répondre aux besoins des utilisateurs.",
+        "description": "Création d'applications interactives et accessibles via un navigateur, combinant design, fonctionnalités, et performance pour répondre aux besoins.",
         "skills": 
         [
-            "HTML",
-            "CSS",
-            "Javascript",
-            "React",
-            "Bootsrap",
-            "Node",
-            "Express",
-            "Mongo"
+            {"name": "HTML","icon": "Html5","library": "fa"},
+            {"name": "CSS","icon": "Css3","library": "fa"},
+            {"name": "Javascript","icon": "Js","library": "fa"},
+            {"name": "React","icon": "React","library": "fa"},
+            {"name": "Bootstrap","icon": "Bootstrap","library": "fa"},
+            {"name": "Node.js","icon": "Node","library": "fa"},
+            {"name": "Express","icon": "Express","library": "si"},
+            {"name": "Mongodb","icon": "Mongodb","library": "si"},
+            {"name": "SEO","icon": "Seo","library": "tb"}
         ]
     },
     {
-        "title": "Création de solutions Low Code / No Code",
+        "title": "Solutions Low Code / No Code",
         "description": "Développement de solutions efficaces et rapides en utilisant des outils low code pour simplifier les processus et réduire les délais de livraison.",
         "skills": 
         [
-            "Wordpress",
-            "Webflow",
-            "Figma",
-            "Bubble.io",
-            "Tali",
-            "Notion",
-            "PrestaShop",
-            "Flutterflow"
-        ]
-    },
-    {
-        "title": "Gestion et optimisation de projets",
-        "description": "Planification stratégique et amélioration des processus pour assurer le succès des projets tout en maximisant le temps gagné et la visibilitée",
-        "skills": 
-        [
-            "Zapier",
-            "TimeTonic",
-            "Agile",
-            "Scrum",
-            "SEO",
-            "SEA"
+            {"name": "Wordpress","icon": "Wordpress","library": "fa"},
+            {"name": "Webflow","icon": "Webflow","library": "si"},
+            {"name": "Figma","icon": "Figma","library": "fa"},
+            {"name": "Bubble.io","icon": "BubbleChartFill","library": "ri"},
+            {"name": "Notion","icon": "NotionFill","library": "ri"},
+            {"name": "Prestashop","icon": "Prestashop","library": "si"},
+            {"name": "Flutterflow","icon": "FlutterFill","library": "ri"},
+            {"name": "Zapier","icon": "Zapier","library": "si"},
+            {"name": "Timetonic","icon": "Table","library": "fa"}
         ]
     }
 ]
