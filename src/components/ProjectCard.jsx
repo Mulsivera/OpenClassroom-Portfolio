@@ -2,7 +2,7 @@ import "../style/ProjectCard.css"
 
 function ProjectCard ({image, title, description, category, link, skills}) {
     return (
-        <a href={link} target="_blank" className="ProjectCard">
+        <a href={link} target="_blank" rel="noreferrer" className="ProjectCard">
             <img src={image} className="ProjectCardImg" alt={title}/>
             <p className="ProjectCardTitle">{title}</p>
             <p className="ProjectCardDescription">{description}</p>
