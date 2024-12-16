@@ -13,7 +13,7 @@ const App = () => {
             <div className="BodyContent">
                 <Router>
                     <Routes>
-                        <Route path="/" element={<Home />} />
+                        <Route path="/OpenClassroom-Portfolio" element={<Home />} />
                     </Routes>
                 </Router>
             </div>
