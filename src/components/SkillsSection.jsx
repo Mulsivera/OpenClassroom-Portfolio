@@ -7,7 +7,6 @@ import Skills from "../data/skills.json"
 function SkillsSection () {
     return (
         <div id="SkillsSection" className="SkillsSection">
-            <p className="SkillsCategory">Compétences</p>
             <p className="SkillsTitle">Découvrez mes principales compétences</p>
             <div className="SkillsCards">
                 {Skills.map((skill, index) => (

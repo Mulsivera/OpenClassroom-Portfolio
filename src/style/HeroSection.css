@@ -21,8 +21,14 @@
     margin: 15px auto;
 }
 
-.HeroButton {
-    margin: 24px auto;
+.HeroButtons {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 36px;
+}
+
+.HeroButtonLinkedin, .HeroButtonGithub {
     width: 215px;
     border: none;
     gap: 15px;
@@ -38,11 +44,15 @@
     text-decoration: none;
 }
 
-.HeroButton:hover {
+.HeroButtonGithub {
+    background-color: var(--primary-text-color);
+}
+
+.HeroButtonLinkedin:hover, .HeroButtonGithub:hover {
     filter: brightness(0.93);
 }
 
-.HeroButton svg {
+.HeroButtonLinkedin svg, .HeroButtonGithub svg {
     font-size: 24px;
 }
 

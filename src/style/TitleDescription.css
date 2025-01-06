@@ -1,0 +1,16 @@
+.Title {
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--secondary-text-color);
+}
+
+.Description {
+    text-align: center;
+    font-size: 18px;
+    max-width: 450px;
+    margin: 0 auto;
+    font-weight: 500;
+}

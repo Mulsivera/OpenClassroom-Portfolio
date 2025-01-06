@@ -1,0 +1,41 @@
+.TableCardDiv {
+    padding: 25px 20px;
+}
+
+.TableCardDiv:first-of-type {
+    border-radius: 25px 25px 0 0;
+}
+
+.TableCardDiv:last-of-type {
+    border-radius: 0 0 25px 25px;
+}
+
+.TableCardDiv:hover {
+    background-color: #1F2937;
+}
+
+.TableCardTitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.TableCardDescription {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    color: #e2e8f0;
+}
+
+@media (max-width: 767px) {
+    .TableCardDescription {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .TableCardDescription {
+        font-size: 14px;
+    }
+}

@@ -1,6 +1,10 @@
 import "../style/ProjectsSection.css"
+
 import Projects from "../data/Projects"
+
 import ProjectCard from "./ProjectCard"
+import TitleDescription from "./TitleDescription";
+
 import { useState } from "react";
 
 function ProjectsSection () {
@@ -13,9 +17,7 @@ function ProjectsSection () {
 
     return (
         <div id="ProjectsSection" className="ProjectsSection">
-            <p className="ProjectsCategory">PROJETS</p>
-            <p className="ProjectsTitle">Projets auxquels j'ai contribué</p>
-            <p className="ProjectsDescription">Cliquez sur un projet pour le découvrir. Pas de lien ? Le projet n'est pas encore accessible.</p>
+            <TitleDescription title="Projets auxquels j'ai contribué" description="Cliquez sur un projet pour le découvrir. Pas de lien ? Le projet n'est pas encore accessible." />
             <div className="ProjectsButtons">
                 <button className={filterCategory === "Tous" ? "BtnActive" : ""} onClick={CategoryFilter}>Tous</button>
                 <button className={filterCategory === "Professionnels" ? "BtnActive" : ""} onClick={CategoryFilter}>Professionnels</button>

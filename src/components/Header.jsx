@@ -36,7 +36,7 @@ function Header() {
                 <p className="HeaderNavLink" onClick={(e) => handleLinkClick(e, "#SkillsSection")}>Compétences</p>
                 <p className="HeaderNavLink" onClick={(e) => handleLinkClick(e, "#ProjectsSection")}>Projets</p>
                 <p className="HeaderNavLink" onClick={(e) => handleLinkClick(e, "#ExperiencesSection")}>Expériences</p>
-                <p className="HeaderNavLink" onClick={(e) => handleLinkClick(e, "#EducationSection")}>Formations</p>
+                <p className="HeaderNavLink" onClick={(e) => handleLinkClick(e, "#ExperiencesSection")}>Formations</p>
                 <FaBars className="HeaderMenuIcon" onClick={SwitchVisibility} />
             </nav>
             <nav className={NavMobileVisibility === "Hide" ? "HeaderNavMobileShow" : "HeaderNavMobileHide"}>
@@ -44,7 +44,7 @@ function Header() {
                 <p className="HeaderNavLink" onClick={(e) => handleLinkClick(e, "#SkillsSection")}>Compétences</p>
                 <p className="HeaderNavLink" onClick={(e) => handleLinkClick(e, "#ProjectsSection")}>Projets</p>
                 <p className="HeaderNavLink" onClick={(e) => handleLinkClick(e, "#ExperiencesSection")}>Expériences</p>
-                <p className="HeaderNavLink" onClick={(e) => handleLinkClick(e, "#EducationSection")}>Formations</p>
+                <p className="HeaderNavLink" onClick={(e) => handleLinkClick(e, "#ExperiencesSection")}>Formations</p>
             </nav>
         </div>
     );

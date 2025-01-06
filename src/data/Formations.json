@@ -2,25 +2,29 @@
     {
         "dates":"Février 2024 - Février 2025",
         "name":"Développeur Web",
+        "type":"Alternance",
         "description":"Formation de développeur Web, conception et réalisations de site web FrontEnd et BackEnd",
         "place":"OpenClassroom"
     },
     {
         "dates":"Septembre 2023 - Février 2024",
-        "name":"Développeur Low Code / No Code",
+        "name":"Low Code / No Code",
+        "type":"Formation",
         "description":"Apprentissage de différents outils de conception et de création de solutions numériques",
-        "place":"M2I Formation, Villeneuve-d'Asqc"
+        "place":"M2I Formation"
     },
     {
         "dates":"Septembre 2021 - Août 2022",
-        "name":"Licence Pro, Robotique Collaborative et mobile",
+        "name":"Robotique industrielle",
+        "type":"Licence Pro",
         "description":"Spécialistes de la robotique industrielle, mettre en œuvre un système robotisé et assurer la maintenance.",
-        "place":"Unversité de Lille, Villeuve-d'Asqc"
+        "place":"Unversité de Lille"
     },
     {
         "dates":"Septembre 2019 - Août 2021",
-        "name":"BTS, Conception et réalisation de systèmes automatiques",
+        "name":"Systèmes industriels",
+        "type":"BTS",
         "description":"Spécialiste de la conception des équipements automatisés présents dans des secteurs de l'industrie",
-        "place":"EIC, Tourcoing"
+        "place":"EIC Tourcoing"
     }
 ]

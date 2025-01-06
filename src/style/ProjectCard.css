@@ -20,13 +20,11 @@
     margin-top: 15px;
     font-size: 24px;
     font-weight: 600;
-    height: calc(1.5rem * 2);
 }
 
 .ProjectCardDescription {
     margin-top: 20px;
     line-height: 22px;
-    height: calc(22px * 4);
 }
 
 .ProjectCardCategory {
@@ -48,22 +46,10 @@
     .ProjectCard {
         width: 48%;
     }
-    .ProjectCardDescription {
-        height: calc(22px * 5);
-    }
-}
-
-@media (max-width: 768px) {
-    .ProjectCardDescription {
-        height: calc(22px * 6);
-    }
 }
 
 @media (max-width: 480px) {
     .ProjectCard {
         width: 100%;
-    }
-    .ProjectCardDescription {
-        height: calc(22px * 5);
     }
 }
