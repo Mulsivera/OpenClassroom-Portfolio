@@ -10,21 +10,33 @@
     margin-top: 45px;
 }
 
-.ExperiencesCards {
+.ExperiencesBloc {
     width: 48%;
+    margin-top: 25px;
+}
+
+.ExperiencesCards {
     border: 2px solid #374151;
     border-radius: 25px;
 }
 
+.ExperiencesTitle {
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: var(--secondary-text-color);
+}
+
 @media (max-width: 1100px) {
-    .ExperiencesCards {
+    .ExperiencesBloc {
         width: 100%;
     }
-    .ExperiencesCards:first-of-type {
+    .ExperiencesBloc:first-of-type {
         margin-bottom: 50px;
     }
 }
-
 
 
 

@@ -63,3 +63,12 @@
         margin-bottom: 35px;
     }
 }
+
+@media (max-width: 540px) {
+    .SkillCardIcon {
+        width: 47%;
+    }
+    .SkillCard {
+        padding: 30px 30px;
+    }
+}

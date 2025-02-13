@@ -28,7 +28,8 @@
 }
 
 .ProjectCardCategory {
-    display: inline-block;
+    max-width: 150px;
+    text-align: center;
     background-color: var(--secondary-text-color);
     padding: 5px 15px;
     color: var(--primary-color);
@@ -51,5 +52,13 @@
 @media (max-width: 480px) {
     .ProjectCard {
         width: 100%;
+    }
+
+    .ProjectCardTitle, .ProjectCardDescription, .ProjectCardSkills {
+        text-align: center;
+    }
+
+    .ProjectCardCategory {
+        justify-self: center;
     }
 }
